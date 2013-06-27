@@ -1,0 +1,1 @@
+<a title="Take awalk" href="index.php"><img src="images/cabecera_larga.jpg" alt="logo de Take awalk" /></a>

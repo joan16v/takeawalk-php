@@ -1,0 +1,101 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN" "http://www.w3.org/TR/html4/loose.dtd">
+
+<html>
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+<title>traffic.html</title>
+<style type="text/css">
+<!--
+  em,h1,h2,h3,h4,h5,h6,form,input,br,hr,p,td,th,li,ul {
+  font-family:Verdana,Arial,Helvetica,sans-serif; }
+
+  td {color:#000000; background-color:#cccccc;}
+
+  th {color:#000000; background-color:#999999;}
+-->
+</style>
+</head>
+
+<body bgcolor="#FFFFFF">
+
+
+
+<!-- HEADER -->
+<h1>Traffic analysis for HTTP, FTP/SFTP, e-mail and WebDAV</h1>
+<p>
+The following analysis shows your monthly data transfer volumes for
+the current year, divided up into HTTP, FTP, e-mail and WebDAV.
+A summary is shown in the first two columns.
+</p>
+
+<p>
+HTTP, WebDAV and FTP/SFTP traffic is based on the access.log.&lt;week&gt;.&lt;weekday&gt;,
+dav.log.&lt;week&gt;.&lt;weekday&gt;, ftp.xferlog and sftp.log files
+respectively, located in your '/logs' directory (separate FTP transfer logs
+apply to packages with a non-shared IP address only).
+</p>
+
+<p>
+The column labeled "quantity" of the category mail indicates the number
+of e-mails that originated from scripts running on your virtual host.
+This does not include e-mails sent via mailing lists.
+</p>
+
+<p>
+The number of megabytes in each category indicates how many megabytes
+were actually consumed by the specified number of requests.
+</p>
+
+
+<table border="0" cellspacing="2" cellpadding="3">
+<thead>
+<tr>
+<th></th>
+<th colspan="2">Total</th>
+<th colspan="2">HTTP</th>
+<th colspan="2">FTP/SFTP</th>
+<th colspan="2">Mail</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<th>Month</th>
+<th>Megabytes</th><th>Requests</th>
+<th>Megabytes</th><th>Requests</th>
+<th>Megabytes</th><th>Requests</th>
+<th>Megabytes</th><th>Quantity</th>
+</tr>
+<tr><th><a href="06.html">2011-06</a></th>
+<td align="right">0,3</td><td align="right" style="border-left:0px;">44</td> <td align="right">0,3</td><td align="right" style="border-left:0px;">44</td>
+<td align="right">0,0</td><td align="right" style="border-left:0px;">0</td>
+<td align="right">0,0</td><td align="right" style="border-left:0px;">0</td>
+</tr>
+<!-- 2011-06 0.297 44 0.297 44 0.000 0 0.000 0 -->
+<tr><th><a href="05.html">2011-05</a></th>
+<td align="right">3,5</td><td align="right" style="border-left:0px;">869</td> <td align="right">3,4</td><td align="right" style="border-left:0px;">815</td>
+<td align="right">0,1</td><td align="right" style="border-left:0px;">54</td>
+<td align="right">0,0</td><td align="right" style="border-left:0px;">0</td>
+</tr>
+<!-- 2011-05 3.510 869 3.420 815 0.090 54 0.000 0 -->
+<tr><th><a href="04.html">2011-04</a></th>
+<td align="right">20,7</td><td align="right" style="border-left:0px;">5.100</td> <td align="right">17,5</td><td align="right" style="border-left:0px;">4.614</td>
+<td align="right">3,2</td><td align="right" style="border-left:0px;">486</td>
+<td align="right">0,0</td><td align="right" style="border-left:0px;">0</td>
+</tr>
+<!-- 2011-04 20.709 5100 17.495 4614 3.214 486 0.000 0 -->
+</tbody>
+</table>
+
+<!-- FOOTER -->
+<pre>
+1 kB = 1000 Bytes
+1 MB = 1000 kB
+1 GB = 1000 MB
+</pre>
+
+
+<!-- 2011-06-07 00:18 CEST -->
+
+</body>
+</html>
+
